@@ -45,3 +45,17 @@ UNO_AI/
 │
 ├── ui/                     # Display and rendering
 │   └── display.py          # Pygame-based visual interface
+```
+---
+## Installation
+```bash
+git clone https://github.com/your-username/UNO_AI.git
+cd UNO_AI
+pip install -r requirements.txt
+python main.py
+```
+
+
+
+
+
