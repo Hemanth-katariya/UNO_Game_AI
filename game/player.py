@@ -1,6 +1,5 @@
 # game/player.py
 
-# game/player.py - ensure it only contains the base Player class
 class Player:
     def __init__(self, name, agent):
         self.name = name
