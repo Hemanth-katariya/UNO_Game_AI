@@ -31,6 +31,7 @@ Welcome to **UNO_AI**, a smart and fun Python-based implementation of the UNO ca
 UNO_AI/
 ├── main.py                 # Entry point to start the game
 ├── README.md               # Project documentation
+├── requirements.txt
 │
 ├── agents/                 # AI players and human player
 │   ├── human_player.py     # Logic for human input
@@ -51,6 +52,7 @@ UNO_AI/
 ```bash
 git clone https://github.com/your-username/UNO_AI.git
 cd UNO_AI
+pip install -r requirements.txt
 python main.py
 ```
 
