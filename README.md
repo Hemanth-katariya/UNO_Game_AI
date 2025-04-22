@@ -50,7 +50,7 @@ UNO_AI/
 ---
 ## Installation
 ```bash
-git clone https://github.com/your-username/UNO_AI.git
+git clone https://github.com/Sandy853/UNO_AI
 cd UNO_AI
 pip install -r requirements.txt
 python main.py

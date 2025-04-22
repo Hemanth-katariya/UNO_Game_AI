@@ -22,7 +22,7 @@ class MCTSAgent(Player):
 
         win_counts = defaultdict(int)
         start_time = time.time()
-        sim_count = 0
+        sim_count = 0                   
         
         # Time-limited simulations
         while time.time() - start_time < self.max_time and sim_count < self.simulations:
