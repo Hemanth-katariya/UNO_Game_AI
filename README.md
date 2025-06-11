@@ -48,12 +48,7 @@ UNO_AI/
 │   └── display.py          # Pygame-based visual interface
 ```
 ---
-## Installation
-```bash
-git clone https://github.com/Sandy853/UNO_AI
-cd UNO_AI
-pip install -r requirements.txt
-python main.py
+
 ```
 
 

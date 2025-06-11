@@ -357,9 +357,10 @@ def show_turn(player_name, top_card, player_hand, playable_cards=None):
     screen.blit(turn_text, (30, 85))
 
     # Enhanced draw button
-    pygame.draw.rect(screen, color_map["Button"], (SCREEN_WIDTH-140, SCREEN_HEIGHT-70, 120, 50), border_radius=10)
+    pygame.draw.rect(screen, color_map["Button"], (SCREEN_WIDTH-150, SCREEN_HEIGHT-70, 135, 45), border_radius=10)
     draw_text = font.render("Draw Card", True, color_map["Text"])
-    screen.blit(draw_text, (SCREEN_WIDTH-130, SCREEN_HEIGHT-55))
+    screen.blit(draw_text, (SCREEN_WIDTH-150, SCREEN_HEIGHT-65))
+      
 
     pygame.display.update()
 
